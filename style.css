@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: UTM Duepuntozero;
+}   
+@font-face {
+    font-family:UTM Duepuntozero;
+    src: url(demo_thi_WEB3023-main/font/UTM\ Duepuntozero.ttf);
+}
+#main{
+    padding: 0 300px;
+    
+}
+#main .header .top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+#main .header .top-header .menu ul {
+     display: flex;
+     justify-content: space-between;
+}
+#main .header .top-header .menu ul li {
+    list-style: none;
+    
+
+}
+#main .header .top-header .menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 15px;
+    display: block;
+   font-size: 20px;
+   border-left: 1px solid white;
+   
+}
+#main .header .top-header .menu ul li:nth-child(2) a{
+    color: yellow;
+}
+#main .banner img{
+    width: 100%;
+    height: 350px;
+}
+#main .article h1{
+    text-align: center;
+    color: pink;
+    margin-top: 10px;
+}
+#main .article .products{
+    display: flex;
+    
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 0 100px 0;
+}
+#main .article .products .item{
+    border: 1px solid;
+    width: 26%;
+    background-color: aqua;
+
+}
+#main .article .products .item img{
+    width: 100%;
+}
+#main .article .products .item img{
+    transition: 3s ease-in-out;
+}
+#main .article .products .item:hover img{
+    transform: rotate(730deg);
+}
+#main .footer {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+#main .footer .font h1{
+      font-size: 15px;
+      display: flex;
+      padding: 0 20px;
+      margin-top: 35px;
+      
+      
+}
+#main .footer .search{
+   padding: 0 50px;
+   margin-top: 35px;
+}
+
+
+
+
+
+
+
